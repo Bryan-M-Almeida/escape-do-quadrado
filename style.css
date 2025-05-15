@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.game-area {
+    width: 600px;
+    height: 400px;
+    background: #222;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+
+.player,
+.enemy {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.player {
+    background: lime;
+    top: 180px;
+    left: 50px;
+}
+
+.enemy {
+    background: red;
+    top: 100px;
+    left: 300px;
+}
